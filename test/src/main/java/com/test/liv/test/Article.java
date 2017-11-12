@@ -3,6 +3,9 @@
  */
 package com.test.liv.test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author belgoudene
  *
@@ -12,6 +15,8 @@ public class Article {
 	private Integer id;
 	
 	private String name;
+	
+	private List<String> listeArticle = new ArrayList<String>();
 
 	/**
 	 * @return the id
@@ -41,6 +46,15 @@ public class Article {
 		this.name = name;
 	}
 	
+	public List<String> getListeArticle(){
+		
+		listeArticle.add("Article1");
+		listeArticle.add("Article2");
+		listeArticle.add("Article3");
+		listeArticle.add("Article4");
+		
+		return listeArticle;
+	}
 	
 	
 }
