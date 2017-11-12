@@ -53,6 +53,11 @@ public class Article {
 		listeArticle.add("Article3");
 		listeArticle.add("Article4");
 		
+		for (String article : listeArticle) {
+			System.out.println("Article : " + article );
+		}
+		
+		
 		return listeArticle;
 	}
 	
