@@ -16,7 +16,7 @@ public class Test {
 		// TODO Auto-generated method stub
 
 		System.out.println("Mon premier projet !");
-		
+		System.out.println("Test 1 !");
 	}
 
 }
