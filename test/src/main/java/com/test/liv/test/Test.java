@@ -20,6 +20,7 @@ public class Test {
 		ar.setId(25);
 		ar.setName("table");
 		
+		System.out.println("afficher les article");
 		
 		System.out.println("Mon premier projet !");
 		System.out.println(ar);
